@@ -1,0 +1,18 @@
+global:
+ resolve_timeout: 5m
+ smtp_smarthost: 'smtp.gmail.com:587'
+ smtp_from: 'example@gmail.com'
+ smtp_auth_username: 'example@gmail.com'
+ smtp_auth_password: 'examplepasswd'
+ smtp_require_tls: true
+
+route:
+ receiver: 'receiver'
+ group_wait: 1s
+ group_interval: 1s
+
+receivers:
+ - name: 'reciver'
+   email_configs:
+   - to: 'receiver@gmail.com'
+     send_resolved: true
