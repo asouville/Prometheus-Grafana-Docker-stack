@@ -9,7 +9,7 @@ There is 3 volumes mounted:
 - Alertmanager pre-configured alerting with gmail smtp server.
 
 Just replace by your own the yml configuration files.
-Grafana is set to load you json dashboards you just have to put in /grafana/provisioning/dashboards/
+Grafana is set to load your json dashboards you just have to put in /grafana/provisioning/dashboards/
 
 ## Installation
 
