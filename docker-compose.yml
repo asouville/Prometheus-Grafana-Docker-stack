@@ -1,3 +1,5 @@
+# prometheus.yml
+
 version: '2'
 
 services:
